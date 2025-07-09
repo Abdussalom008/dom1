@@ -7,5 +7,5 @@ function changeLight() {
   current = (current + 1) % lights.length;
 }
 
-changeLight(); // Start immediately
-setInterval(changeLight, 3000); // Change every 3 seconds
+changeLight();
+setInterval(changeLight, 3000);
